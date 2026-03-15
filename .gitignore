@@ -1,6 +1,6 @@
-# Node
-node_modules/
-.env
+# Node & Environment
+**/node_modules/
+**/.env
 
 # Flutter
 flutter_app/.dart_tool/
