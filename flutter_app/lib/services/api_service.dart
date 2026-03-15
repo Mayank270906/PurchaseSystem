@@ -13,9 +13,8 @@ class ApiService {
   // For Android emulator use: http://10.0.2.2:3000
   // For iOS simulator use: http://localhost:3000
   // For physical device use your machine's IP: http://192.168.x.x:3000
-  // Use your machine's LAN IP so the physical phone can reach the backend.
-  // Both phone and PC must be on the same WiFi network.
-  static const String baseUrl = 'http://192.168.29.152:3000/api';
+  // Production URL (Render.com)
+  static const String baseUrl = 'https://purchase-registry-api.onrender.com/api';
 
   /// Get stored JWT token
   static Future<String?> _getToken() async {
